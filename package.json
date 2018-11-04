@@ -6,10 +6,11 @@
   "author": "Rich Dillon",
   "license": "MIT",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/richraid21/node-config-store.git"
+    "type": "git",
+    "url": "https://github.com/richraid21/node-config-store.git"
   },
   "scripts": {
+    "build": "tsc",
     "test": "jest"
   },
   "devDependencies": {
