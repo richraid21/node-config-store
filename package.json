@@ -5,6 +5,10 @@
   "main": "./lib/index.js",
   "author": "Rich Dillon",
   "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/richraid21/node-config-store.git"
+  },
   "scripts": {
     "test": "jest"
   },
