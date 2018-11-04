@@ -1,0 +1,27 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es5",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outDir": "./lib",
+        "sourceMap": true,
+        "lib": [
+            "es2015"
+        ],
+        "types": [
+            "node",
+            "jest",
+            "joi"
+        ]
+    },
+    "include": [
+        "index.ts",
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}

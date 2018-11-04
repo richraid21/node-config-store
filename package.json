@@ -1,0 +1,49 @@
+{
+  "name": "node-config-store",
+  "version": "0.0.3",
+  "description": "Runtime Configuration Utility for Node JS",
+  "main": "./lib/index.js",
+  "author": "Rich Dillon",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/debug": "^0.0.31",
+    "@types/jest": "^23.3.9",
+    "@types/joi": "^14.0.0",
+    "@types/node": "^10.12.2",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4",
+    "typescript": "^3.1.6"
+  },
+  "optionalDependencies": {
+    "dotenv": "^6.1.0",
+    "joi": "^14.0.4"
+  },
+  "dependencies": {
+    "debug": "^4.1.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}"
+    ],
+    "roots": [
+      "./src",
+      "./test"
+    ],
+    "testRegex": ".*.test.ts",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "transform": {
+      ".(ts)": "ts-jest"
+    }
+  }
+}
