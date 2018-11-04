@@ -51,6 +51,10 @@ jobs:
       - run:
           name: Test
           command: yarn test
+      
+      - run:
+          name: Coverage Upload
+          command: yarn coveralls
 
       - persist_to_workspace:
           root: ~/repo
