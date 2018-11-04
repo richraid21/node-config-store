@@ -1,5 +1,10 @@
 # Config Store
-Easily manage the runtime setup of an app wide config store.
+
+[![CircleCI branch](https://img.shields.io/circleci/project/github/richraid21/node-config-store/master.svg?style=for-the-badge)](https://circleci.com/gh/richraid21/workflows/node-config-store)
+    
+
+## Description
+Easily manage the configuration of your app.
 
 ## Features
 - Populate initial state via object, files and functions
