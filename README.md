@@ -1,7 +1,11 @@
 # Config Store
 
+![npm](https://img.shields.io/npm/v/node-config-store.svg?style=for-the-badge)
 [![CircleCI branch](https://img.shields.io/circleci/project/github/richraid21/node-config-store/master.svg?style=for-the-badge)](https://circleci.com/gh/richraid21/workflows/node-config-store)
+![Coveralls github branch](https://img.shields.io/coveralls/github/richraid21/node-config-store/master.svg?style=for-the-badge)
     
+
+
 
 ## Description
 Easily manage the configuration of your app.
